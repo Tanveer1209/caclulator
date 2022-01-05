@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+<title>HOMEPAGE</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+<style>
+
+body{
+background-image:url("ts.jpg");
+  
+margin:auto;
+padding:0px;
+
+}
+
+.link{
+font-family:arial;
+border-radius:50px;
+color:orange;
+padding:15px 10px;
+text-align:center;
+width:30%;
+border:1px solid red;
+position:relative;
+margin:0% 25% 50% 40%;
+box-shadow:0 0 7px 8px red;
+box-shadow:0 0 7px 8px orange inset;
+
+}
+a{
+text-decoration:none;
+}
+.link:hover
+{
+
+background-color:pink;
+color:white;
+}
+button{
+width:250px;
+}
+button:hover{
+font-family:arial;
+border-radius:50px;
+color:orange;
+}
+	
+ul {
+  list-style-type: none;
+  margin: 5px;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+   position: fixed;
+  top: 0px;
+  right:0px;
+  width: 25%;
+  height:100%;
+}
+
+li {
+  float: right;
+}
+.active {
+    border-radius:30px;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover, .dropdown:hover dropbtn{
+  background-color: orange;
+  border-radius:50px;
+  box-shadow:0 0 10px 7px orange;
+  color:white;
+}
+li.dropdown {
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:transparent;
+  min-width: 80px;
+  b ox-shadow: 0px 8px 16px 0px red inset;
+  z-index:1;
+  width: 25%;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: inline-block;
+  text-align:center;
+}
+
+.dropdown-content a:hover 
+{
+background:transparent;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+</style>
+
+
+<body st yle="background-image:url('ts.jpg'); background-attachment: fixed;
+  background-size: cover;">
+<div class="list">
+<ul>
+  <li><a href="home.html" class="active">Home</a></li>
+  <li><a href="news.html">News</a></li>
+  <li class="dropdown">
+
+  <a href="javascript:void(0)" class="dropbtn">Contact</a>
+    <div class="dropdown-content">
+      <a href="#">Tanveer</a>
+      <a href="#">Kalpesh</a>
+      <a href="#">Kishor</a>
+    </div>
+  </li>
+  <li><a href="about.html">About</a></li>
+</ul>
+<div class="link">
+<a href="home.html">
+THIS IS MY HOMEPAGE !!!
+</a></div>
+
+
+</script
+
+</body>
+</html>
